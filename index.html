@@ -4,31 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <title>Document</title>
-  <style type="text/css">h1{ color:white;text-align:center} 
-    input:focus {
-        background: black;
-           color: Cyan;</style>
-    <script type="text/javascript">
-    function display()
-    {
-       var i,a;
-       a=form1.t1.value 
-       for (i=1;i<=10;i++)
-       {
-         document.write(a*i + "<br/>");
-       }
-     
-    }
-    
-    </script>
 </head>
+<style type="text/css">h1{ color:white;text-align:center}
+  body {
+      font-family: 'Poppins';font-size: 22px;
+  }
+  input:focus {
+        background: black;
+           color: Cyan;
+            
+  }
+</style>
+  <script type="text/javascript">
+function display()
+{
+   var i,a;
+   a=form1.t1.value 
+   for (i=1;i<=10;i++)
+   {
+     document.write(a*i + "<br/>");
+   }
+ 
+}
+</script>
 <body style="background-image: url(https://ak.picdn.net/shutterstock/videos/1052869340/thumb/1.jpg
 ); background-size: 500% ; no-repeat">
-
-<form name="form1">
-<h1>Enter number to display table:- <br> <br> <br><br><br>
-<input type="number" name="t1"><br><br>
-<input type ="button"value="display table" onClick="display()"></h1>
+  <form name="form1"><br><br><br>
+    <h1>Enter number to display table:- <br> <br> <br>
+    <input type="number" name="t1"><br><br>
+    <input type ="button"value="display table" onClick="display()"></h1>
 </body>
 </html>
